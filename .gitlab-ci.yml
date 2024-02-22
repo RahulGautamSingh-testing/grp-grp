@@ -1,8 +1,0 @@
-stages:
- - test
-
-job:
- image: golang:1.21.6
- stage: test
- script:
-  - go run main.go
