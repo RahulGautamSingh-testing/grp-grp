@@ -3,6 +3,10 @@
   "prHourlyLimit": 0,
   "prConcurrentLimit": 0,
   "packageRules": [
+     {
+      "matchDatasources": ["golang-version"],
+      "rangeStrategy": "bump"
+    },
     {
       "groupName": "all non-major dependencies go",
       "groupSlug": "all-minor-patch-go",
