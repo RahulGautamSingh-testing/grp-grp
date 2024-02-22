@@ -2,7 +2,7 @@ stages:
  - test
 
 job:
- image: golang:1.21.6
+ image: golang:1.22.0
  stage: test
  script:
   - go run main.go
